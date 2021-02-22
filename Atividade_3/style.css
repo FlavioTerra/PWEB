@@ -1,0 +1,70 @@
+/*
+    --------- Resets ---------
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #baaac9, #94bddf);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2c2c2c;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #324579;
+    font-size: 1.5em;
+}
+
+header {
+    background: #324579;
+    color: #fff;
+    padding: 23px 0;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+/*
+    --------- Conteudo ---------
+*/
+
+section.conteudo {
+    margin: 20px 0;
+}
+
+section.conteudo p{
+    width: 65%;
+    padding: 10px 0;
+    text-align: justify;
+    font-size: 1.15em;
+}
+
+/*
+    --------- Referencias ---------
+*/
+
+section#referencias li{
+    margin: 15px 0;
+    list-style-type: none;
+}
+
+section#referencias li a {
+    color: #000;
+    text-decoration: none;
+    transition: .3s ease all;
+}
+
+section#referencias li a:hover {
+    color: #fff;
+    border-bottom: #fff 1px solid;
+    padding: 5px 0;
+}
