@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pedra, papel ou tesoura</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        
+        <div id="opcoes">
+
+            <div id="titulo">
+                <h2>Faça a sua escolha</h2>
+            </div>
+
+            <div id="buttons">
+                <input type="button" value="Pedra" onclick="funcPedra()">
+                <input type="button" value="Papel" onclick="funcPapel()">
+                <input type="button" value="Tesoura" onclick="funcTesoura()">
+            </div>
+
+            <div id="painel-resultado">
+                <h3>
+                    Você: <span id="scorePlayer">0</span>
+                </h3>
+                <h3> X </h3>
+                <h3>
+                    Oponente: <span id="scoreOpponent">0</span>
+                </h3>
+            </div>
+            
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
