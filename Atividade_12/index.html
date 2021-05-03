@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <title>Atividade 12</title>
+    </head>
+    <body>
+        
+        <header class="header-1">
+            <h1>Formulário Principal</h1>
+        </header>
+
+        <hr />
+        
+        <main>
+            <form onsubmit="funcValidar()" name="form1">
+                <div class="forms-1">
+                    <div>
+                        <label>Nome: </label>
+                        <input type="text" name="nome" id="textNome" size="25" maxlength="150">
+                    </div>
+
+                    <div>
+                        <label>E-mail:</label>
+                        <input type="email" name="email" id="textEmail" size="45" maxlength="150">
+                    </div>
+
+                    <div>
+                        <label>Comentário:</label>
+                        <textarea cols="30" rows="7" name="comentarios" id="comentarios"></textarea>
+                    </div>
+                </div>
+
+                <div class="forms-2">
+                    <h2>Pesquisa:</h2>
+                    <p>Primeira vez nesta página??</p>
+
+                    <div class="radios">
+                        <label>
+                            <input type="radio" name="radio" id="radioSim">Sim
+                        </label>
+                        <label>
+                            <input type="radio" name="radio" id="radioNao">Não
+                        </label>
+                    </div>
+
+                    <div class="buttons">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </div>
+                </div>
+            </form>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
